@@ -21,7 +21,8 @@ The 1.x branch has been archived (renamed for now), all development is to be on 
 
 ## Installation
 
-ios-deploy installation is made simple using the node.js package manager.  If you use [Homebrew](https://brew.sh/), install [node.js](https://nodejs.org):
+ios-deploy installation is made simple using the node.js package manager.  
+If you use [Homebrew](https://brew.sh/), install [node.js](https://nodejs.org):
 
 ```
 brew install node
@@ -51,7 +52,8 @@ npm install && npm test
 
 ### OS X 10.11 El Capitan or greater
 
-If you are *not* using a node version manager like [nvm](https://github.com/creationix/nvm) or [n](https://github.com/tj/n), you may have to do either of these three things below when under El Capitan:
+If you are *not* using a node version manager like [nvm](https://github.com/creationix/nvm) or [n](https://github.com/tj/n), 
+you may have to do either of these three things below when under El Capitan:
 
 1. Add the `--unsafe-perm=true` flag  when installing ios-deploy
 2. Add the `--allow-root` flag  when installing ios-deploy
